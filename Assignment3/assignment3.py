@@ -6,11 +6,7 @@ import time
 # Setting up the webdriver
 driver = webdriver.Chrome()
 
-# Navigating to the Amazon.ca homepage
-driver.get("https://www.amazon.ca")
-time.sleep(3)
-
-# Navigating to the Amazon.ca homepage
+# Navigating to the linkedin homepage
 driver.get("https://www.linkedin.com")
 time.sleep(5)
 
